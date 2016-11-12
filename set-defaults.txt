@@ -1,0 +1,74 @@
+
+# To convert this into a shell script for automation, see:
+# https://github.com/nateirwin/dotfiles/blob/master/macos/set-defaults.sh
+
+# Another good reference:
+# https://www.learningosx.com/101-ways-to-tweak-os-x-using-terminal/
+
+# For now, this is just a collection of MacOS settings that are configurable
+# via command line that I find useful.
+
+###############################################################################
+# General UI/UX                                                               #
+###############################################################################
+
+# Always show scrollbars.
+defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
+
+# Disable opening and closing window animations.
+defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
+
+# Expand save panel by default.
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+
+# Expand print panel by default.
+defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
+
+# Automatically quit printer app once the print jobs complete.
+defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
+
+# Disable the “Are you sure you want to open this application?” dialog.
+defaults write com.apple.LaunchServices LSQuarantine -bool false
+
+###############################################################################
+# Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
+###############################################################################
+
+# Disable auto-correct.
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+
+###############################################################################
+# Screen                                                                      #
+###############################################################################
+
+# Require password immediately after sleep or screen saver begins.
+defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPasswordDelay -int 0
+
+# Save screenshots to the downloads folder.
+defaults write com.apple.screencapture location -string "$HOME/Downloads"
+
+# Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF).
+defaults write com.apple.screencapture type -string “png”
+
+###############################################################################
+# Finder                                                                      #
+###############################################################################
+
+# Finder: disable window animations and Get Info animations.
+defaults write com.apple.finder DisableAllAnimations -bool true
+
+# Finder: Show all filename extensions.
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# When performing a search, search the current folder by default.
+defaults write com.apple.finder FXDefaultSearchScope -string “SCcf"
+
+# Disable the warning when changing a file extension.
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+
+# Make Dock icons of hidden applications translucent.
+defaults write com.apple.dock showhidden -bool true
+
+# Show indicator lights for open applications in the Dock.
+defaults write com.apple.dock show-process-indicators -bool true
