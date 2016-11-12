@@ -44,9 +44,7 @@ Inspired by https://github.com/nateirwin/dotfiles.
 ## System configuration
 
 - Install Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
- - Add to `.bash_profile`:
-        # Make sure Homebrew packages take precedence
-        export PATH=/usr/local/bin:$PATH
+ - Add to `.bash_profile`: `export PATH=/usr/local/bin:$PATH`
  - Reference: https://changelog.com/posts/install-node-js-with-homebrew-on-os-x
 - Install Git: `brew install git`, then:
  - `git config --global user.name "Chad Lawlis"`
@@ -87,9 +85,7 @@ Install packages:
 - tabs-to-spaces
 - sublime-style-column-selection
 
-Add to `.bash_profile` to use Atom as the default editor:
-    # Use Atom as the default editor
-    export EDITOR='atom'
+Add to `.bash_profile` to use Atom as the default editor: `export EDITOR='atom'`
 
 #### Sublime Text
 
@@ -114,9 +110,7 @@ Consider automating in the future via https://github.com/nateirwin/dotfiles#hype
 
 #### Postgres
 
-Add to `.bash_profile` to enable command line tools:
-    # Enable Postgres.app command line tools
-    export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
+Add to `.bash_profile` to enable command line tools: `export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin`
 
 The "Postgres.app" includes PostgreSQL, PostGIS, and GDAL out of the box.
 The "GDAL Complete" package must still be installed for QGIS - see below.
