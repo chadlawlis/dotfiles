@@ -23,6 +23,7 @@ Inspired by https://github.com/nateirwin/dotfiles.
 - [Dash](https://kapeli.com/dash)
 - Dropbox
 - Firefox
+- Garmin Express
 - [Google Earth Pro](https://www.google.com/earth/explore/products/desktop.html)
 - [HyperTerm](https://hyper.is/)
 - [Inkscape](https://inkscape.org/)
