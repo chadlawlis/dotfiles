@@ -12,6 +12,7 @@ Inspired by https://github.com/nateirwin/dotfiles.
 - Alfred
 - Evernote
 - Monosnap
+- OmniGraffle
 - Slack
 - Tweetdeck
 - Xcode
@@ -24,6 +25,7 @@ Inspired by https://github.com/nateirwin/dotfiles.
 - Dropbox
 - Firefox
 - Garmin Express
+- [GIMP](https://www.gimp.org/downloads/)
 - [Google Earth Pro](https://www.google.com/earth/explore/products/desktop.html)
 - [HyperTerm](https://hyper.is/)
 - [Inkscape](https://inkscape.org/)
