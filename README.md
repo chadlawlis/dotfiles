@@ -166,5 +166,7 @@ Java must be installed in order to use this. See: https://www.java.com/en/downlo
 Install plugins:
 - OpenData
 - GeoTools should be installed out of the box; if not, install it
+- Reverter
+- Todo
 
 App shortcut will appear in "Desktop" by default - this can be configured in the `josm.jnlp` file.
