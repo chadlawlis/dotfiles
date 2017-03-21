@@ -98,6 +98,10 @@ Install command line tool:
 - `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
 - Reference: https://www.sublimetext.com/docs/3/osx_command_line.html
 
+Set word wrap as default:
+- Open settings via "command + ,"
+- Add `"word_wrap": true`
+
 #### HyperTerm
 
 Add to plugins:
