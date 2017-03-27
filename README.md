@@ -76,7 +76,7 @@ Set up sync:
 
 Set up shell commands:
 - `ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom`, or:
-- Atom > Install Shell Commands, or:
+- Atom > Install Shell Commands
 
 Install packages:
 - atom-beautify
