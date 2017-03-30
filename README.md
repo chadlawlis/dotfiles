@@ -47,21 +47,21 @@ Inspired by https://github.com/nateirwin/dotfiles.
 ## System configuration
 
 - Install Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
- - Add to `.bash_profile`: `export PATH=/usr/local/bin:$PATH`
- - Reference: https://changelog.com/posts/install-node-js-with-homebrew-on-os-x
+  - Add to `.bash_profile`: `export PATH=/usr/local/bin:$PATH`
+  - Reference: https://changelog.com/posts/install-node-js-with-homebrew-on-os-x
 - Install Git: `brew install git`, then:
- - `git config --global user.name "Chad Lawlis"`
- - `git config --global user.email "cwlawlis802@gmail.com"`
- - `git config --global credential.helper osxkeychain`
- - References: https://help.github.com/articles/setting-your-username-in-git/, https://help.github.com/articles/caching-your-github-password-in-git/
+  - `git config --global user.name "Chad Lawlis"`
+  - `git config --global user.email "cwlawlis802@gmail.com"`
+  - `git config --global credential.helper osxkeychain`
+  - References: https://help.github.com/articles/setting-your-username-in-git/, https://help.github.com/articles/caching-your-github-password-in-git/
 - Install Node: `brew install node`, then:
- - Install [Grunt](https://www.npmjs.com/package/grunt): `npm install grunt-cli -g`
- - Install [Gulp](https://www.npmjs.com/package/gulp): `npm install gulp-cli -g`
- - Install [HTTP Server](https://www.npmjs.com/package/http-server): `npm install http-server -g`
+  - Install [Grunt](https://www.npmjs.com/package/grunt): `npm install grunt-cli -g`
+  - Install [Gulp](https://www.npmjs.com/package/gulp): `npm install gulp-cli -g`
+  - Install [HTTP Server](https://www.npmjs.com/package/http-server): `npm install http-server -g`
 - Install Ruby gems:
- - *Note: using the default MacOS Ruby install can require you to use `sudo` when installing gems*
- - [Jekyll](http://jekyllrb.com/docs/installation/): `sudo gem install jekyll`
- - [Bundler](http://bundler.io/): `sudo gem install bundler`
+  - *Note: using the default MacOS Ruby install can require you to use `sudo` when installing gems*
+  - [Jekyll](http://jekyllrb.com/docs/installation/): `sudo gem install jekyll`
+  - [Bundler](http://bundler.io/): `sudo gem install bundler`
 
 ## App configuration
 
