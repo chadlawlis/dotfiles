@@ -156,8 +156,10 @@ Will need to install 3 packages before installing the QGIS package (all of which
 
 Install plugins:
 - OpenLayers Plugin
+- Vector Tiles Reader
 - QuickOSM
-- Table Manager
+- qgis2web
+- Table Manager (?)
 
 (Note to self: look into configuring keyboard shortcuts and menu/display preferences and how best to migrate this across machines)
 
