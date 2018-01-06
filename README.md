@@ -111,7 +111,7 @@ Add to plugins:
 
 Set `bell: false` to deactivate bell sound.
 
-See here for `.hyper.js` settings file: https://gist.github.com/cwlawlis802/0eee3fef19ee8cf24d5d314fad960a84
+See here for `.hyper.js` settings file: https://gist.github.com/chadlawlis/0eee3fef19ee8cf24d5d314fad960a84
 
 Consider automating in the future via https://github.com/nateirwin/dotfiles#hyperterm
 
