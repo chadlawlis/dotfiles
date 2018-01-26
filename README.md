@@ -122,6 +122,10 @@ Add to `.bash_profile` to enable command line tools: `export PATH=$PATH:/Applica
 The "Postgres.app" includes PostgreSQL, PostGIS, and GDAL out of the box.
 The "GDAL Complete" package must still be installed for QGIS - see below.
 
+Install via Homebrew down the road? 
+- https://wiki.postgresql.org/wiki/Detailed_installation_guides
+- http://www.russbrooks.com/2010/11/25/install-postgresql-9-on-os-x
+
 #### PgAdmin
 
 Version 4 at the time of writing.
