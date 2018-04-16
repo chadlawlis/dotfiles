@@ -1,12 +1,14 @@
+# For now, this is just a collection of MacOS settings that are configurable via command line that I find useful.
 
 # To convert this into a shell script for automation, see:
 # https://github.com/nateirwin/dotfiles/blob/master/macos/set-defaults.sh
 
-# Another good reference:
+# Other good references:
+# https://ss64.com/osx/syntax-defaults.html
 # https://www.learningosx.com/101-ways-to-tweak-os-x-using-terminal/
 
-# For now, this is just a collection of MacOS settings that are configurable
-# via command line that I find useful.
+# To read default setting before writing new, use:
+# defaults read
 
 ###############################################################################
 # General UI/UX                                                               #
@@ -36,6 +38,12 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 
 # Disable auto-correct.
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+
+# Set Keyboard > Key Repeat to 2 (30 ms) ("Fast")
+defaults write NSGlobalDomain KeyRepeat -int 2
+
+# Set Keyboard > Delay Until Repeat to 25 (375 ms) (one click long of "Short")
+defaults write NSGlobalDomain InitialKeyRepeat -int 25
 
 ###############################################################################
 # Screen                                                                      #
